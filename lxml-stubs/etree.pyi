@@ -374,7 +374,7 @@ class XPath:
         self,
         path: _AnyStr,
         *,
-        namespaces: Optional[_AnyStr] = ...,
+        namespaces: Optional[Union[_AnyStr, _DictAnyStr]] = ...,
         extensions: Optional[_AnyStr] = ...,
         regexp: bool = ...,
         smart_strings: bool = ...
